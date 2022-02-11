@@ -1,0 +1,101 @@
+    1  ls
+    2  ls /data
+    3  ls /etc/perl
+    4  pwd
+    5  mkdir Learning_unix
+    6  ls
+    7  cd Learning_unix
+    8  mkdir Outer_directory
+    9  cd Outer_directory
+   10  mkdir Inner_directory
+   11  cd Inner_directory/
+   12  cd /
+   13  cd home
+   14  cd Thami
+   15  cd MINGW64
+   16  cd Learning_unix
+   17  cd Learning_unix/
+   18  cd Learning_unix
+   19  cd ~
+   20  pwd
+   21  cd /
+   22  pwd
+   23  cd 
+   24  pwd
+   25  mkdir git-basic-exercises
+   26   cd git-basic-exercises
+   27  cd Learning-unix
+   28  man ls
+   29  cd ~
+   30  man ls
+   31  man man
+   32  /Learning_unix
+   33  cd git-basic-exercises
+   34  ls -l
+   35  ls -R
+   36  ls -l t -r
+   37  ls -l -t -r
+   38  cd user
+   39  cd ~
+   40  ls -R
+   41  mkdir git-basic-exercises
+   42  cd git-basic-exercises
+   43  ls -a
+   44  git init
+   45  ls -a
+   46  git status
+   47  touch README.md
+   48  touch README.md
+   49  ls -a
+   50  git status
+   51  git log
+   52  git add README.md
+   53  git status
+   54  git rm README.md
+   55  git status
+   56  git rm --cached README.md
+   57  git status
+   58  git add README.md
+   59  git status
+   60  git commit -m "initial commit"
+   61  git config --global user.email "thamsanqakebe257@outlook.com"
+   62  git config --global user.name "Thamsanqa-Kebe"
+   63  git commit -m "initial commit"
+   64  git log
+   65  q
+   66  nano README.md
+   67  cat README.md
+   68  git status
+   69  git add README.md
+   70  git commit -m "second commit"
+   71  nano README.md
+   72  cat README.md
+   73  git status
+   74  git add README.md
+   75  git commit -m "third commit"
+   76  git log
+   77  q
+   78  git checkout 5157fd3e00de6e95839047cbfe616fa91b76802c
+   79  cat README.md 
+   80  git checkout main
+   81  git checkout master
+   82  cat README.md
+   83  git branch
+   84  git branch <milkshake-flavours>
+   85  git branch "milkshake-flavours"
+   86  git branch
+   87  git branch
+   88  git switch "milkshake-flavours"
+   89  git branch
+   90  nano milkshakes.md
+   91  git status
+   92  git add milkshakes.md
+   93  git commit "added initial flavours"
+   94  git commit -m "added initial flavours"
+   95  git log
+   96  q
+   97  git switch master
+   98  git branch history
+   99  git log
+  100  git branch
+  101  history > history.txt
